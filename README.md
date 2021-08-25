@@ -1,3 +1,2 @@
-# Ruchir_Test__external
-
-Ruchir_Test__external repository
+# TestRepo_Prophecy
+Test as external git repo at Prophecy
