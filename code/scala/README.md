@@ -1,3 +1,3 @@
-# Ruchir_Test__internal
+# Ruchir_Test_Single_External__internal
 
-Ruchir_Test__internal repository
+Ruchir_Test_Single_External__internal repository
