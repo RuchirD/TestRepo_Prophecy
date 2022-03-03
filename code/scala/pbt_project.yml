@@ -1,0 +1,44 @@
+name: Test_Ruchir
+description: ''
+version: 0.0.0
+author: ' ruchir_123@simpledatalabs.com'
+workflows:
+  workflows/Test_Workflow:
+    name: Test_Workflow
+    description: null
+    author: ' ruchir_123@simpledatalabs.com'
+    mode: batch
+    language: scala
+    createdAt: '2022-03-03 11:34:44'
+    datasets:
+      inputs:
+      - 229/datasets/RuchirDataset
+      outputs: []
+    dependencies: {}
+datasets:
+  datasets/RuchirDataset:
+    name: RuchirDataset
+    description: ''
+    author: ' ruchir_123@simpledatalabs.com'
+    createdAt: '2022-03-03 11:39:37'
+    physicalDatasets:
+      GameDayFabric:
+        fabricId: 31
+        datasetType: File
+        description: ''
+        author: ' ruchir_123@simpledatalabs.com'
+        createdAt: '2022-03-03 11:39:37'
+  datasets/RuchirOutputDataset:
+    name: RuchirOutputDataset
+    description: ''
+    author: ' ruchir_123@simpledatalabs.com'
+    createdAt: '2022-03-03 11:41:15'
+    physicalDatasets:
+      GameDayFabric:
+        fabricId: 31
+        datasetType: File
+        description: ''
+        author: ' ruchir_123@simpledatalabs.com'
+        createdAt: '2022-03-03 11:41:15'
+schedules: {}
+libraries: []
